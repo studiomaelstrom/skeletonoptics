@@ -1,0 +1,567 @@
+<link rel="preload" href="{{ 'section-featured-menu.min.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+<noscript>{{ 'section-featured-menu.min.css' | asset_url | stylesheet_tag }}</noscript>
+
+<style>
+  /* overrides global font-sizes with section font-sizes */
+  [data-wetheme-section-id="{{ section.id }}"].featured-menu-wrapper * {
+    font-size: {{ section.settings.menu_item_size }}px !important;
+    line-height: normal;
+  }
+
+  {% if section.settings.menu_items_color != "rgba(0,0,0,0)" %}
+    .featured-menu-wrapper featured-menu .custom-cursor {
+      background-color: {{ section.settings.menu_items_color }};
+    }
+    
+    .featured-menu-wrapper .placeholder-noblocks,
+    .featured-menu-wrapper featured-menu {
+      color: {{ section.settings.menu_items_color }} !important;
+    }
+  {% endif %}
+</style>
+
+{% liquid
+  assign section_height = 'featured-menu-section-height--' | append: section.settings.min_height
+
+  assign menu_position = 'menu-position--' | append: section.settings.menu_position 
+  
+  assign menu_aligment = 'menu-aligment-mobile--' | append: section.settings.alignment_mobile | append: ' menu-aligment-desktop--' | append: section.settings.alignment_desktop
+
+  assign menu_items_color = 'inherit'
+  if section.settings.menu_items_color != "rgba(0,0,0,0)"
+    assign menu_items_color = section.settings.menu_items_color
+  endif
+
+%}
+
+<section class="featured-menu-wrapper homepage-sections-wrapper--{{ section.settings.colors }} {{ section_height }} show-on-scroll" data-wetheme-section-type="featured-menu" data-wetheme-section-id="{{ section.id }}">
+
+  {% if section.blocks.size == 0 and section.settings.image_desktop_default == blank %}
+    <div class="placeholder-noblocks">
+      {{ 'homepage.onboarding.no_content' | t }}
+    </div>
+
+  {% else %}
+
+    <featured-menu>
+
+      {% if section.settings.image_desktop_default or section.settings.image_mobile %}
+        <div class="default--imgs" data-default-imgs-wrapper>
+          {% liquid
+    
+            if section.settings.image_mobile
+              assign bg_img_mobile = section.settings.image_mobile
+              assign bg_img_mobile_alt = bg_img_mobile.alt | default: shop.name | escape
+              assign bg_img_mobile_classes = ' featured-menu--bg-img-mobile'
+              assign bg_img_mobile_fit_container = true
+              
+              render 'responsive-image' with bg_img_mobile, alt: bg_img_mobile_alt, wrapper_class: bg_img_mobile_classes, allow_stretch: true
+            endif
+    
+            if section.settings.image_desktop_default
+              assign bg_img_desktop = section.settings.image_desktop_default
+              assign bg_img_desktop_alt = bg_img_desktop.alt | default: shop.name | escape
+              assign bg_img_desktop_classes = ' featured-menu--bg-img-desktop ' | append: section_height
+              assign bg_img_desktop_fit_container = true
+              if section.settings.min_height == 'original'
+                assign bg_img_desktop_fit_container = false
+              endif
+              
+              render 'responsive-image' with bg_img_desktop, alt: bg_img_desktop_alt, wrapper_class: bg_img_desktop_classes, allow_stretch: bg_img_desktop_fit_container
+            endif
+          %}
+        </div>
+      {% endif %}
+
+      {% if section.blocks.size > 0 %}
+        <ul class="featured-menu--images">
+          {% for block in section.blocks %}
+            <li data-menu-image-block="{{ block.id }}" class="featured-menu--image-wrapper{% if block.settings.menu_item_image == blank %} featured-menu--block-bg-img-placeholder{% endif %}" {{ block.shopify_attributes }}>
+              {% if block.settings.menu_item_image != blank %}
+                {% liquid
+                  assign block_bg_img = block.settings.menu_item_image
+                  assign block_bg_img_alt = block_bg_img.alt | default: shop.name | escape
+                  assign block_bg_img_classes = ' featured-menu--block-bg-img ' | append: section_height
+                  assign block_bg_img_fit_container = true
+                  if section.settings.min_height == 'original'
+                    assign block_bg_img_fit_container = false
+                  endif
+                  
+                  render 'responsive-image' with block_bg_img, alt: block_bg_img_alt, wrapper_class: block_bg_img_classes, allow_stretch: block_bg_img_fit_container
+                %}
+              {% else %}
+                {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
+                {% assign placeholder_classes = 'icon icon--placeholder ' | append: section_height %}
+                <div class="featured-menu--placeholder-wrapper">
+                  {{ 'collection-' | append: current | placeholder_svg_tag: placeholder_classes }}
+                </div>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+
+        <ul class="featured-menu--items {{ menu_position }} {{ menu_aligment }}" style="color: {{ menu_items_color }}">
+          {% for block in section.blocks %}
+            {% liquid
+              assign tabindex = 'tabindex="0"'
+              if block.settings.menu_item_link
+                assign tabindex = 'tabindex="-1"'
+              endif 
+            %}
+            {% capture menu_item_data %}
+              data-menu-item data-menu-item-block="{{ block.id }}" data-menu-item-color="{{ block.settings.menu_item_color }}"
+            {% endcapture %}
+          
+            <li class="h2 featured-menu--item" {{ tabindex }}{% unless block.settings.menu_item_link %} {{ menu_item_data }}{% endunless %} {{ block.shopify_attributes }}>
+              {% if block.settings.menu_item_link %}
+                <a href="{{ block.settings.menu_item_link }}" {{ menu_item_data }}>
+              {% endif %}
+                {{ block.settings.menu_item_text }}
+              {% if block.settings.menu_item_link %}
+                </a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      <div data-custom-cursor class="custom-cursor"></div>
+      
+    </featured-menu>
+
+    <safe-load-scripts>
+      <script src="{{ 'component-featured-menu.js' | asset_url }}" type="module" defer="defer" data-flow-load-key="component-featured-menu"></script>
+    </safe-load-scripts>
+  {% endif %}
+
+</section>
+
+{% schema %}
+{
+  "name": {
+    "en": "Featured menu",
+    "de": "Ausgewählte Speisekarte",
+    "es": "Menú destacado",
+    "fr": "Menu vedette",
+    "pt-PT": "Menu em destaque"
+  },
+  "settings": [
+    {
+      "type": "select",
+      "id": "colors",
+      "label": {
+        "en": "Color scheme",
+        "de": "Farbschema",
+        "es": "Esquema de colores",
+        "fr": "Palette de couleurs",
+        "pt-PT": "Esquema de cores"
+      },
+      "default": "light",
+      "options": [
+        {
+          "value": "white",
+          "label": {
+            "en": "Minimal",
+            "fr": "Minimal",
+            "de": "Minimal",
+            "es": "Mínimo",
+            "pt-PT": "Mínimo"
+          }
+        },
+        {
+          "value": "light",
+          "label": {
+            "en": "Light",
+            "de": "Licht",
+            "es": "Luz",
+            "fr": "Clair",
+            "pt-PT": "Claro"
+          }
+        },
+        {
+          "value": "accent",
+          "label": {
+            "en": "Feature",
+            "de": "Eigenschaft",
+            "es": "Destacado",
+            "fr": "Caractéristique",
+            "pt-PT": "Funcionalidade"
+          }
+        },
+        {
+          "value": "dark",
+          "label": {
+            "en": "Dark",
+            "de": "Dunkel",
+            "es": "Oscuro",
+            "fr": "Foncé",
+            "pt-PT": "Escuro"
+          }
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "min_height",
+      "label": {
+          "en": "Minimum section height",
+          "de": "Mindestabschnittshöhe",
+          "es": "Altura mínima de sección",
+          "fr": "Hauteur de section minimale",
+          "pt-PT": "Altura mínima da secção"
+      },
+      "default": "40vw",
+      "options": [
+        {
+          "value": "30vw",
+          "label": {
+            "en": "Small",
+            "de": "Klein",
+            "es": "Pequeño",
+            "fr": "Petite",
+            "pt-PT": "Pequeno"
+          }
+        },
+        {
+          "value": "40vw",
+          "label": {
+            "en": "Medium",
+            "de": "Mittel",
+            "es": "Mediano",
+            "fr": "Moyenne",
+            "pt-PT": "Médio"
+          }
+        },
+        {
+          "value": "50vw",
+          "label": {
+            "en": "Large",
+            "de": "Groß",
+            "es": "Grande",
+            "fr": "Grande",
+            "pt-PT": "Grande"
+          }
+        },
+        {
+          "value": "original",
+          "label": {
+            "en": "Original",
+            "de": "Original",
+            "es": "Original",
+            "fr": "D'origine",
+            "pt-PT": "Original"
+          }
+        }
+      ]
+    },
+    {
+      "type": "image_picker",
+      "id": "image_desktop_default",
+      "label": {
+        "en": "Desktop default image (optional)",
+        "de": "Desktop-Standardbild (optional)",
+        "es": "Imagen predeterminada del escritorio (opcional)",
+        "fr": "Image par défaut du bureau (facultatif)",
+        "pt-PT": "Imagem padrão do desktop (opcional)"
+      },
+      "info": {
+        "en": "2000 x 900px recommended",
+        "de": "2000 x 900 px empfohlen",
+        "es": "Recomendado 2000 x 900 px",
+        "fr": "2000 x 900 px recommandé",
+        "pt-PT": "2000 x 900px, recomendado"
+      }
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": {
+        "en": "Mobile image (optional)",
+        "de": "Mobiles Bild (optional)",
+        "es": "Imagen móvil (opcional)",
+        "fr": "Image mobile (facultative)",
+        "pt-PT": "Imagem para celular (opcional)"
+      },
+      "info": {
+        "en": "1400 x 1400px recommended",
+        "de": "1400 x 1400 px empfohlen",
+        "es": "Recomendado 1400 x 1400 px",
+        "fr": "1400 x 1400 px recommandé",
+        "pt-PT": "1400 x 1400px, recomendado"
+      }
+    },
+    {
+      "type": "header",
+      "content": {
+        "en": "Menu",
+        "de": "Menü",
+        "es": "Menú",
+        "fr": "Menu",
+        "pt-PT": "Menu"
+      }
+    },
+    {
+      "type": "select",
+      "id": "menu_position",
+      "label": {
+        "en": "Menu position",
+        "de": "Menüposition",
+        "es": "Posición del menú",
+        "fr": "Position du menu",
+        "pt-PT": "Posição do menu"
+      },
+      "options": [
+        {
+          "value": "left",
+          "label": {
+            "en": "Left",
+            "de": "Links",
+            "es": "Izquierda",
+            "fr": "Gauche",
+            "pt-PT": "Esquerda"
+          }
+        },
+        {
+          "value": "center",
+          "label": {
+            "en": "Center",
+            "de": "Zentriert",
+            "es": "Centro",
+            "fr": "Centre",
+            "pt-PT": "Centro"
+          }
+        },
+        {
+          "value": "right",
+          "label": {
+            "en": "Right",
+            "de": "Rechts",
+            "es": "Derecha",
+            "fr": "Droite",
+            "pt-PT": "Direita"
+          }
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "alignment_desktop",
+      "label": {
+        "en": "Desktop alignment",
+        "de": "Desktop-Ausrichtung",
+        "es": "Alineación del escritorio",
+        "fr": "Alignement du bureau",
+        "pt-PT": "Alinhamento do desktop"
+      },
+      "options": [
+        {
+          "value": "left",
+          "label": {
+            "en": "Left",
+            "de": "Links",
+            "es": "Izquierda",
+            "fr": "Gauche",
+            "pt-PT": "Esquerda"
+          }
+        },
+        {
+          "value": "center",
+          "label": {
+            "en": "Center",
+            "de": "Zentriert",
+            "es": "Centro",
+            "fr": "Centre",
+            "pt-PT": "Centro"
+          }
+        },
+        {
+          "value": "right",
+          "label": {
+            "en": "Right",
+            "de": "Rechts",
+            "es": "Derecha",
+            "fr": "Droite",
+            "pt-PT": "Direita"
+          }
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "alignment_mobile",
+      "label": {
+        "en": "Mobile alignment",
+        "de": "Mobile Ausrichtung",
+        "es": "Alineación del móvil",
+        "fr": "Alignement mobile",
+        "pt-PT": "Alinhamento para celular"
+      },
+      "options": [
+        {
+          "value": "left",
+          "label": {
+            "en": "Left",
+            "de": "Links",
+            "es": "Izquierda",
+            "fr": "Gauche",
+            "pt-PT": "Esquerda"
+          }
+        },
+        {
+          "value": "center",
+          "label": {
+            "en": "Center",
+            "de": "Zentriert",
+            "es": "Centro",
+            "fr": "Centre",
+            "pt-PT": "Centro"
+          }
+        },
+        {
+          "value": "right",
+          "label": {
+            "en": "Right",
+            "de": "Rechts",
+            "es": "Derecha",
+            "fr": "Droite",
+            "pt-PT": "Direita"
+          }
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "color",
+      "id": "menu_items_color",
+      "label": {
+        "en": "Menu items color",
+        "de": "Farbe der Menüelemente",
+        "es": "Color de los elementos del menú",
+        "fr": "Couleur des éléments de menu",
+        "pt-PT": "Cor do item do menu"
+      },
+      "default": "rgba(0,0,0,0)"
+    },
+    {
+      "type": "range",
+      "id": "menu_item_size",
+      "min": 15,
+      "max": 50,
+      "step": 1,
+      "unit": {
+          "en": "px",
+          "de": "px",
+          "es": "px",
+          "fr": "px",
+          "pt-PT": "px"
+      },
+      "label": {
+          "en": "Menu item size",
+          "de": "Größe der Menüelemente",
+          "es": "Tamaño del elemento de menú",
+          "fr": "Taille des éléments de menu",
+          "pt-PT": "Tamanho do item do menu"
+      },
+      "default": 18
+    }
+  ],
+  "max_blocks": 8,
+  "blocks": [
+    {
+      "type": "menu_item",
+      "name": {
+        "en": "Menu item",
+        "fr": "Élément de menu",
+        "de": "Menüpunkt",
+        "es": "Elemento de menú",
+        "pt-PT": "Item de menu"
+      },
+      "settings": [
+        {
+          "type": "text",
+          "id": "menu_item_text",
+          "label": {
+            "en": "Text",
+            "fr": "Texte",
+            "de": "Text",
+            "es": "Texto",
+            "pt-PT": "Texto"
+          },
+          "default": {
+            "en": "Menu item",
+            "fr": "Élément de menu",
+            "de": "Menüpunkt",
+            "es": "Elemento de menú",
+            "pt-PT": "Item de menu"
+          }
+        },
+        {
+          "type": "color",
+          "id": "menu_item_color",
+          "label": {
+            "en": "Text color",
+            "fr": "Couleur du texte",
+            "de": "Textfarbe",
+            "es": "Color del texto",
+            "pt-PT": "Cor do texto"
+          },
+          "default": "#ffffff"
+        },
+        {
+          "type": "url",
+          "id": "menu_item_link",
+          "label": {
+            "en": "Link",
+            "fr": "Lien",
+            "de": "Link",
+            "es": "Enlace",
+            "pt-PT": "Link"
+          }
+        },
+        {
+          "type": "image_picker",
+          "id": "menu_item_image",
+          "label": {
+            "en": "Image (desktop only)",
+            "fr": "Image (uniquement pour ordinateur de bureau)",
+            "de": "Bild (nur Desktop)",
+            "es": "Imagen (solo para escritorio)",
+            "pt-PT": "Imagem (apenas para desktop)"
+          },
+          "info": {
+            "en": "2000 x 900px recommended",
+            "de": "2000 x 900 px empfohlen",
+            "es": "Recomendado 2000 x 900 px",
+            "fr": "2000 x 900 px recommandé",
+            "pt-PT": "2000 x 900px, recomendado"
+          }
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        "en": "Featured menu",
+        "de": "Ausgewählte Speisekarte",
+        "es": "Menú destacado",
+        "fr": "Menu vedette",
+        "pt-PT": "Menu em destaque"
+      },
+      "blocks": [
+        {
+          "type": "menu_item"
+        },
+        {
+          "type": "menu_item"
+        },
+        {
+          "type": "menu_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
