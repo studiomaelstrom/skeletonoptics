@@ -1,1 +1,531 @@
-{"sections":{"7635f990-ac0c-4723-a5ba-591687f0e736":{"type":"video--video-hero","disabled":true,"custom_css":[],"settings":{"video":"shopify:\/\/files\/videos\/Skeleton 2.mp4","url":"","desktopHeight":"550","mobileHeight":"fit","title":"Unrivaled Clarity, Unmatched Style","subheading":"Designed for perfection, crafted for performance.","textAlignment":"center","textColor":"#ffffff","textShadow":true,"heading--text-size":58,"subheading--text-size":22,"link":"","button_label":"","button-text":"#ffffff","button-background":"#262428","hover-button-text":"#ffffff","hover-button-background":"#494949"}},"221588ab-9229-4c2b-9304-d2483e843546":{"type":"image--image-with-text-overlay","custom_css":["img {position: top;}"],"settings":{"image":"shopify:\/\/shop_images\/womens_option_2.jpg","image_height":"40vw","bg_image_overlay_opacity":35,"parallax":false,"title":"Trailblazing Women's Styles","text":"Enjoy 20% Off Our Entire Women's Collection","colors":"light","textPosition":"right","textAlignment":"right","heading--text-size":50,"text--text-size":32,"link":"shopify:\/\/collections\/womens-sunglasses","button_label":"Shop Now","button-text":"#ffffff","button-background":"#b22233","hover-button-text":"#ffffff","hover-button-background":"#949494"}},"ad23cd0c-cd18-4cb7-b210-43c6b51b4cfe":{"type":"image--slideshow","blocks":{"faaaeaf5-fa70-47be-bbc3-5b4ca96c7354":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/home-page-6.jpg","title":"Hunting Sunglasses","text":"Perfect Your Aim with Perfect Vision - Hunt with Precision","button_label":"Shop Now","button_link":"shopify:\/\/collections\/hunting-sunglasses","caption-background":"#ffffff","caption-text":"#262428","button-text":"#ffffff","button-background":"#262428","hover-button-text":"#ffffff","hover-button-background":"#494949","captionHorizontal":"right","captionAlignment":"right"}},"template--14705982931021__ad23cd0c-cd18-4cb7-b210-43c6b51b4cfe-1686239582657cdc72-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/hero-2---woman.jpg","title":"Women's Sunglasses","text":"Embrace the Adventure - Explore in Style","button_label":"Shop Now","button_link":"shopify:\/\/collections\/womens-sunglasses","caption-background":"#ffffff","caption-text":"#262428","button-text":"#ffffff","button-background":"#262428","hover-button-text":"#ffffff","hover-button-background":"#494949","captionHorizontal":"left","captionAlignment":"left"}},"template--14705982931021__ad23cd0c-cd18-4cb7-b210-43c6b51b4cfe-1686239582657cdc72-0":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Labor_Day_Sale.jpg","title":"Labor Day Sale!","text":"Save 20% Off All Sunglasses! Use Coupon Code: LaborDay23","button_label":"","button_link":"","caption-background":"#ffffff","caption-text":"#262428","button-text":"#ffffff","button-background":"#262428","hover-button-text":"#ffffff","hover-button-background":"#494949","captionHorizontal":"right","captionAlignment":"right"}},"52b69ea9-d1f8-41e3-b053-00e4a0cdb56e":{"type":"image","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/home-pagre-5.jpg","title":"Lifestyle Sunglasses","text":"Live Vibrantly - Optics for Every Adventure","button_label":"Shop Now","button_link":"shopify:\/\/collections\/lifestyle","caption-background":"#ffffff","caption-text":"#262428","button-text":"#ffffff","button-background":"#262428","hover-button-text":"#ffffff","hover-button-background":"#494949","captionHorizontal":"left","captionAlignment":"left"}}},"block_order":["faaaeaf5-fa70-47be-bbc3-5b4ca96c7354","template--14705982931021__ad23cd0c-cd18-4cb7-b210-43c6b51b4cfe-1686239582657cdc72-1","template--14705982931021__ad23cd0c-cd18-4cb7-b210-43c6b51b4cfe-1686239582657cdc72-0","52b69ea9-d1f8-41e3-b053-00e4a0cdb56e"],"disabled":true,"settings":{"slider-animation":"slide","slider-width":"full-width","vertical-alignment":true,"text-below-image":true,"slider-slide-time":8,"caption-heading-size":50,"caption-subheading-size":22,"caption-button-size":16,"show-slide-dots":true,"show-slide-arrows":true,"slider-navigation-color":"#ffffff"}},"text-text-adverts":{"type":"text--text-adverts","blocks":{"advert-0":{"type":"text","settings":{"heading":"Crystal Clear Vision","subheading":"See the world in stunning detail with our top-notch Zeiss Vision lenses.","link":""}},"advert-1":{"type":"text","settings":{"heading":"Crafted For The Outdoors","subheading":"Our robust Italian frames are designed to weather any adventure you embark upon.","link":""}},"0bc17875-3043-497d-bb36-d400736beaa4":{"type":"text","settings":{"heading":"No Boundaries Lifestyle","subheading":"Embrace a life of limitless possibilities with the Skeleton Optics sunglasses.","link":""}}},"block_order":["advert-0","advert-1","0bc17875-3043-497d-bb36-d400736beaa4"],"settings":{"colors":"light"}},"collection-collection-list":{"type":"collection--collection-list","blocks":{"collection-0":{"type":"featured_collection","settings":{"collection":"fishing-sunglasses","collection_img":"shopify:\/\/shop_images\/431A4188.jpg","subheading":"","overlay-btn-text":"Shop now","show-gradient-overlay":true,"overlay_font_color":"#ffffff","overlay_color":"#323232"}},"collection-1":{"type":"featured_collection","settings":{"collection":"womens-sunglasses","collection_img":"shopify:\/\/shop_images\/woman--Skeleton-Optics-Sunglasses-088.jpg","subheading":"","overlay-btn-text":"Shop now","show-gradient-overlay":true,"overlay_font_color":"#ffffff","overlay_color":"#191500"}},"96a6699e-033a-412d-960b-b31c0aadbd27":{"type":"featured_collection","settings":{"collection":"lifestyle","collection_img":"shopify:\/\/shop_images\/DonnieW.jpg","subheading":"","overlay-btn-text":"Shop now","show-gradient-overlay":true,"overlay_font_color":"#ffffff","overlay_color":"#373737"}},"7368e915-f509-4cfc-8d7d-4aa1524aa166":{"type":"featured_collection","settings":{"collection":"hunting-sunglasses","collection_img":"shopify:\/\/shop_images\/Skeleton-Optics-Sunglasses-088.jpg","subheading":"","overlay-btn-text":"Shop now","show-gradient-overlay":true,"overlay_font_color":"#ffffff","overlay_color":"#373737"}}},"block_order":["collection-0","collection-1","96a6699e-033a-412d-960b-b31c0aadbd27","7368e915-f509-4cfc-8d7d-4aa1524aa166"],"settings":{"colors":"white","title":"","richtext":"","items-per-row":4,"fill-the-area":true,"remove-spacing":false,"section-width":"full","content-position":"overlay"}},"95a56041-cb7c-4b06-a760-6b7c58e632a3":{"type":"image--slideshow","blocks":{"template--14705982931021__95a56041-cb7c-4b06-a760-6b7c58e632a3-1688044434774fd0b8-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Logos_Lenses_by_ZEISS-2.jpg","mobile_image":"shopify:\/\/shop_images\/Logos_Lenses_by_ZEISS-1.jpg","title":"","text":"","button_label":"","button_link":"","caption-background":"rgba(0,0,0,0)","caption-text":"#262428","button-text":"#ffffff","button-background":"#262428","hover-button-text":"#ffffff","hover-button-background":"#494949","captionHorizontal":"left","captionAlignment":"left"}}},"block_order":["template--14705982931021__95a56041-cb7c-4b06-a760-6b7c58e632a3-1688044434774fd0b8-0"],"settings":{"slider-animation":"slide","slider-width":"full-width","vertical-alignment":true,"text-below-image":true,"slider-slide-time":5,"caption-heading-size":30,"caption-subheading-size":16,"caption-button-size":14,"show-slide-dots":false,"show-slide-arrows":true,"slider-navigation-color":"#ffffff"}},"featured-collection":{"type":"collection--featured-collection","settings":{"rows":1,"grid-desktop":4,"grid-mobile":"2","colors":"white","title":"","richtext":"","collection":"skeleton-originals","show-vendor":false,"show_view_all":false}},"d7c0ab53-89d0-40ea-b9e2-8a173fc4f5df":{"type":"image--image-with-text","settings":{"colors":"white","image":"shopify:\/\/shop_images\/APznzaZz6FIVYL42coNY5-kIkje-9PguwVXKU2urGN5u3Nq86LTIaIpFgLJ1nVKxie6sJwumKUJy8qrlbq7rxkJxdbS6fc8M140EyuXFwQrzfW_olkhLLa3zgPn3DBd4DaVCrAXlA014VUvCHuy8mgVjnXFyfXzigpq3F5IFCi7ZS2_DUsyLwSE.jpg","text_overlapping_image":false,"section-width":"full","layout":"right","text_alignment":"left","title":"Powered By Zeiss Vision Technology","text":"<p>Skeleton Optics feature polarized lenses by ZEISS, the world's recognized leader in optics, to provide the most visually accurate lens technologies in the world for the active outdoorsman. Every pair of Skeleton Optics sunglasses uses cutting edge Tri-pel lens technology that is ANSI Z80.3 standard compliant.<\/p><p>Additionally, our Zeiss lenses include transparent salt water repellent coating: dirt, mud, water, sweat, salt, oil, sunscreen and dust slip off the lens surface easily, ensuring a clear and protected vision. Easy to clean: fingerprints and other contaminates are easily removed. <\/p><h2>Frames<\/h2><p>Skeleton Optics has invested in design and craftsmanship by creating proprietary design molds for its frame collection. Working closely with industry leading design and manufacturing companies from Italy, Skeleton Optics is committed to developing cutting-edge, ultra-light materials for outdoor enthusiasts. Our frames are manufactured with great attention to detail because they are critical in supporting the lenses that improve your vision.<\/p>","button_label":"","button_link":""}},"video-video-hero":{"type":"video--video-hero","settings":{"video":"shopify:\/\/files\/videos\/Sequence 01_1.mp4","url":"","desktopHeight":"550","mobileHeight":"250","title":"","subheading":"","textAlignment":"center-left","textColor":"#262428","textShadow":false,"heading--text-size":36,"subheading--text-size":24,"link":"","button_label":"Learn more","button-text":"#ffffff","button-background":"#262428","hover-button-text":"#ffffff","hover-button-background":"#494949"}},"featured-collection-1":{"type":"collection--featured-collection","settings":{"rows":1,"grid-desktop":4,"grid-mobile":"2","colors":"white","title":"","richtext":"","collection":"sunglasses","show-vendor":false,"show_view_all":false}},"image-text-with-image-overlay-1":{"type":"image--image-with-text-overlay","settings":{"image":"shopify:\/\/shop_images\/IMG_3370.jpg","image_height":"40vw","bg_image_overlay_opacity":40,"parallax":true,"title":"Unleash The Adventure","text":"We believe in the power of the great outdoors. Our passion for adventure and the pursuit of the unknown is the driving force behind every pair of our sunglasses. We use the best materials to create durable and stylish frames equipped with premium lenses, providing you with exceptional clarity on all your journeys. Join us in embracing a life with No Boundaries.","colors":"light","textPosition":"right","textAlignment":"right","heading--text-size":36,"text--text-size":18,"link":"shopify:\/\/collections\/sunglasses","button_label":"Shop now","button-text":"#262428","button-background":"#ffffff","hover-button-text":"#ffffff","hover-button-background":"#494949"}},"1695066771567e9797":{"type":"apps","blocks":{"c1995a49-c365-4846-8dcb-0b72fc4abe92":{"type":"shopify:\/\/apps\/klaviyo-reviews\/blocks\/featured-reviews-carousel\/db20e365-d984-4ac4-9655-e1588d951ca9","settings":{}}},"block_order":["c1995a49-c365-4846-8dcb-0b72fc4abe92"],"settings":{"include_margins":true}},"text-testimonials":{"type":"text--testimonials","blocks":{"testimonials-0":{"type":"text","settings":{"testimonial_text":"<p>Hands down the best sunglasses I’ve ever owned. Top notch quality and customer service.<\/p>","customer_name":"Jeremy M.","link":"shopify:\/\/collections","stars":5}},"testimonials-1":{"type":"text","settings":{"testimonial_text":"<p>I own 2 pairs of these amazing glasses. Soon to be 4. The clarity and comfort are unmatched. <\/p>","customer_name":"Willie M.","link":"shopify:\/\/collections","stars":5}},"testimonials-2":{"type":"text","settings":{"testimonial_text":"<p>I love them I have walked through hell with these things on my head and nothing has scratched them up.<\/p>","customer_name":"Bart L.","link":"shopify:\/\/collections","stars":5}}},"block_order":["testimonials-0","testimonials-1","testimonials-2"],"settings":{"colors":"white","circle_images":true,"title":"Testimonials"}},"collage-builder":{"type":"collage-builder","blocks":{"collage-builder-0":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/outlaw---2_ba0642ff-afc4-4c62-b3a8-42d50e953738.jpg","heading":"","heading_size":30,"button_label":"","url":"","desktop_position":"md-min-align-top md-min-justify-left","mobile_position":"md-max-align-top md-max-justify-left","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#262428","button_hover_color":"#d4d3d4","button_hover_background_color":"#494949","overlay_color":"rgba(0,0,0,0)"}},"collage-builder-3":{"type":"text","settings":{"heading":"Who We Are","heading_size":36,"text":"At Skeleton Optics, we understand the importance of clarity. This is why our sunglasses feature polarized lenses by Carl Zeiss Vision, offering superior contrast, clarity, and color accuracy. Handcrafted in Italy, our frames promise robustness and reliability, ready for any adventure you undertake.\n<br><br>\nEach moment in the outdoors is a story waiting to be told, and we aim to ensure that your visual memories are as vivid as your experiences. We are committed to being your trustworthy companion in all your outdoor pursuits, helping you live a life with no boundaries.","text_alignment":"left","button_label":"Shop now","url":"shopify:\/\/collections\/lifestyle","desktop_position":"md-min-align-center md-min-justify-left","background_color":"#e6e5e7","text_color":"#060606","button_color":"#e6e5e7","button_background_color":"#262428","button_hover_color":"#d4d3d4","button_hover_background_color":"#494949"}},"collage-builder-2":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/Skeleton_Optics_Sunglasses-079.jpg","heading":"Embrace The Outdoors","heading_size":30,"button_label":"Shop now","url":"shopify:\/\/collections\/sunglasses","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","text_color":"#f4f4f4","button_color":"#020202","button_background_color":"#ffffff","button_hover_color":"#d4d3d4","button_hover_background_color":"#494949","overlay_color":"rgba(0,0,0,0)"}},"image_CGbVTM":{"type":"image","settings":{"desktop_image":"shopify:\/\/shop_images\/DI9A4472_5829aba3-52f8-4d2a-87d2-c36551390ce2.jpg","heading":"","heading_size":30,"button_label":"","url":"","desktop_position":"md-min-align-bottom md-min-justify-right","mobile_position":"md-max-align-bottom md-max-justify-right","text_color":"#262428","button_color":"#e6e5e7","button_background_color":"#262428","button_hover_color":"#d4d3d4","button_hover_background_color":"#494949","overlay_color":"rgba(0,0,0,0)"}}},"block_order":["collage-builder-0","collage-builder-3","collage-builder-2","image_CGbVTM"],"settings":{"color_scheme":"white","title":"","description":"","remove_spacing":false,"section_width":"content","width_1":"2","height_1":"2","width_2":"2","height_2":"2","width_3":"2","height_3":"3","width_4":"2","height_4":"3","width_5":"4","height_5":"3","width_6":"1","height_6":"6","block_alignment":"center"}},"e7585d97-e121-4344-b3ac-8c57354903c5":{"type":"collection--products-block","settings":{"title":"Featured products","richtext":"","collection":"frontpage"}},"image-image-with-text-1":{"type":"image--image-with-text","settings":{"colors":"light","image":"shopify:\/\/shop_images\/home-page-4.jpg","text_overlapping_image":true,"section-width":"full","layout":"right","text_alignment":"left","title":"A Blend Of Craftsmanship & Performance","text":"<p>Welcome to Skeleton Optics, where we blend craftsmanship, performance, and style. We use Zeiss Vision lenses for all our sunglasses, with handcrafted Italian frames, offering you a visual experience like no other. <\/p><p>We're more than just a brand - we're a community that believes in embracing the outdoors and living life without limits. So, gear up, step out, and see the world through our lenses. It's time to join the Skeleton family.<\/p>","button_label":"Learn more","button_link":"shopify:\/\/pages\/about-us"}}},"order":["7635f990-ac0c-4723-a5ba-591687f0e736","221588ab-9229-4c2b-9304-d2483e843546","ad23cd0c-cd18-4cb7-b210-43c6b51b4cfe","text-text-adverts","collection-collection-list","95a56041-cb7c-4b06-a760-6b7c58e632a3","featured-collection","d7c0ab53-89d0-40ea-b9e2-8a173fc4f5df","video-video-hero","featured-collection-1","image-text-with-image-overlay-1","1695066771567e9797","text-testimonials","collage-builder","e7585d97-e121-4344-b3ac-8c57354903c5","image-image-with-text-1"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "221588ab-9229-4c2b-9304-d2483e843546": {
+      "type": "image--image-with-text-overlay",
+      "disabled": true,
+      "custom_css": [
+        "img {position: top;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/womens_option_2.jpg",
+        "image_height": "40vw",
+        "bg_image_overlay_opacity": 35,
+        "parallax": false,
+        "title": "Trailblazing Women's Styles",
+        "text": "Enjoy 20% Off Our Entire Women's Collection",
+        "colors": "light",
+        "textPosition": "right",
+        "textAlignment": "right",
+        "heading--text-size": 50,
+        "text--text-size": 32,
+        "link": "shopify:\/\/collections\/womens-sunglasses",
+        "button_label": "Shop Now",
+        "button-text": "#ffffff",
+        "button-background": "#b22233",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#949494"
+      }
+    },
+    "image_slideshow_8jUzdn": {
+      "type": "image--slideshow",
+      "blocks": {
+        "image_CECPCy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/womens_option_2.jpg",
+            "title": "Share your story",
+            "text": "Here's your chance to make a great first impression",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#262428",
+            "button-text": "#ffffff",
+            "button-background": "#262428",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#494949",
+            "captionHorizontal": "right",
+            "captionAlignment": "right"
+          }
+        },
+        "image_PCcxcC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/08122016-5531-72dpi.jpg",
+            "title": "Share your story",
+            "text": "Here's your chance to make a great first impression",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#262428",
+            "button-text": "#ffffff",
+            "button-background": "#262428",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#494949",
+            "captionHorizontal": "right",
+            "captionAlignment": "right"
+          }
+        }
+      },
+      "block_order": [
+        "image_CECPCy",
+        "image_PCcxcC"
+      ],
+      "settings": {
+        "slider-animation": "fade",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 8,
+        "caption-heading-size": 60,
+        "caption-subheading-size": 30,
+        "caption-button-size": 20,
+        "show-slide-dots": true,
+        "show-slide-arrows": false,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "text-text-adverts": {
+      "type": "text--text-adverts",
+      "blocks": {
+        "advert-0": {
+          "type": "text",
+          "settings": {
+            "heading": "Crystal Clear Vision",
+            "subheading": "See the world in stunning detail with our top-notch Zeiss Vision lenses.",
+            "link": ""
+          }
+        },
+        "advert-1": {
+          "type": "text",
+          "settings": {
+            "heading": "Crafted For The Outdoors",
+            "subheading": "Our robust Italian frames are designed to weather any adventure you embark upon.",
+            "link": ""
+          }
+        },
+        "0bc17875-3043-497d-bb36-d400736beaa4": {
+          "type": "text",
+          "settings": {
+            "heading": "No Boundaries Lifestyle",
+            "subheading": "Embrace a life of limitless possibilities with the Skeleton Optics sunglasses.",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "advert-0",
+        "advert-1",
+        "0bc17875-3043-497d-bb36-d400736beaa4"
+      ],
+      "settings": {
+        "colors": "light"
+      }
+    },
+    "collection-collection-list": {
+      "type": "collection--collection-list",
+      "blocks": {
+        "collection-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fishing-sunglasses",
+            "collection_img": "shopify:\/\/shop_images\/431A4188.jpg",
+            "subheading": "",
+            "overlay-btn-text": "Shop now",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "womens-sunglasses",
+            "collection_img": "shopify:\/\/shop_images\/woman--Skeleton-Optics-Sunglasses-088.jpg",
+            "subheading": "",
+            "overlay-btn-text": "Shop now",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#191500"
+          }
+        },
+        "96a6699e-033a-412d-960b-b31c0aadbd27": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "lifestyle",
+            "collection_img": "shopify:\/\/shop_images\/DonnieW.jpg",
+            "subheading": "",
+            "overlay-btn-text": "Shop now",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#373737"
+          }
+        },
+        "7368e915-f509-4cfc-8d7d-4aa1524aa166": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hunting-sunglasses",
+            "collection_img": "shopify:\/\/shop_images\/Skeleton-Optics-Sunglasses-088.jpg",
+            "subheading": "",
+            "overlay-btn-text": "Shop now",
+            "show-gradient-overlay": true,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#373737"
+          }
+        }
+      },
+      "block_order": [
+        "collection-0",
+        "collection-1",
+        "96a6699e-033a-412d-960b-b31c0aadbd27",
+        "7368e915-f509-4cfc-8d7d-4aa1524aa166"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "items-per-row": 4,
+        "fill-the-area": true,
+        "remove-spacing": false,
+        "section-width": "full",
+        "content-position": "overlay"
+      }
+    },
+    "95a56041-cb7c-4b06-a760-6b7c58e632a3": {
+      "type": "image--slideshow",
+      "blocks": {
+        "template--14705982931021__95a56041-cb7c-4b06-a760-6b7c58e632a3-1688044434774fd0b8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logos_Lenses_by_ZEISS-2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Logos_Lenses_by_ZEISS-1.jpg",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#262428",
+            "button-text": "#ffffff",
+            "button-background": "#262428",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#494949",
+            "captionHorizontal": "left",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--14705982931021__95a56041-cb7c-4b06-a760-6b7c58e632a3-1688044434774fd0b8-0"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 30,
+        "caption-subheading-size": 16,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "featured-collection": {
+      "type": "collection--featured-collection",
+      "settings": {
+        "rows": 1,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "collection": "skeleton-originals",
+        "show-vendor": false,
+        "show_view_all": false
+      }
+    },
+    "d7c0ab53-89d0-40ea-b9e2-8a173fc4f5df": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "white",
+        "image": "shopify:\/\/shop_images\/APznzaZz6FIVYL42coNY5-kIkje-9PguwVXKU2urGN5u3Nq86LTIaIpFgLJ1nVKxie6sJwumKUJy8qrlbq7rxkJxdbS6fc8M140EyuXFwQrzfW_olkhLLa3zgPn3DBd4DaVCrAXlA014VUvCHuy8mgVjnXFyfXzigpq3F5IFCi7ZS2_DUsyLwSE.jpg",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "right",
+        "text_alignment": "left",
+        "title": "Powered By Zeiss Vision Technology",
+        "text": "<p>Skeleton Optics feature polarized lenses by ZEISS, the world's recognized leader in optics, to provide the most visually accurate lens technologies in the world for the active outdoorsman. Every pair of Skeleton Optics sunglasses uses cutting edge Tri-pel lens technology that is ANSI Z80.3 standard compliant.<\/p><p>Additionally, our Zeiss lenses include transparent salt water repellent coating: dirt, mud, water, sweat, salt, oil, sunscreen and dust slip off the lens surface easily, ensuring a clear and protected vision. Easy to clean: fingerprints and other contaminates are easily removed. <\/p><h2>Frames<\/h2><p>Skeleton Optics has invested in design and craftsmanship by creating proprietary design molds for its frame collection. Working closely with industry leading design and manufacturing companies from Italy, Skeleton Optics is committed to developing cutting-edge, ultra-light materials for outdoor enthusiasts. Our frames are manufactured with great attention to detail because they are critical in supporting the lenses that improve your vision.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "video-video-hero": {
+      "type": "video--video-hero",
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/Sequence 01_1.mp4",
+        "url": "",
+        "desktopHeight": "550",
+        "mobileHeight": "250",
+        "title": "",
+        "subheading": "",
+        "textAlignment": "center-left",
+        "textColor": "#262428",
+        "textShadow": false,
+        "heading--text-size": 36,
+        "subheading--text-size": 24,
+        "link": "",
+        "button_label": "Learn more",
+        "button-text": "#ffffff",
+        "button-background": "#262428",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
+    "featured-collection-1": {
+      "type": "collection--featured-collection",
+      "settings": {
+        "rows": 1,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "collection": "sunglasses",
+        "show-vendor": false,
+        "show_view_all": false
+      }
+    },
+    "image-text-with-image-overlay-1": {
+      "type": "image--image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_3370.jpg",
+        "image_height": "40vw",
+        "bg_image_overlay_opacity": 40,
+        "parallax": true,
+        "title": "Unleash The Adventure",
+        "text": "We believe in the power of the great outdoors. Our passion for adventure and the pursuit of the unknown is the driving force behind every pair of our sunglasses. We use the best materials to create durable and stylish frames equipped with premium lenses, providing you with exceptional clarity on all your journeys. Join us in embracing a life with No Boundaries.",
+        "colors": "light",
+        "textPosition": "right",
+        "textAlignment": "right",
+        "heading--text-size": 36,
+        "text--text-size": 18,
+        "link": "shopify:\/\/collections\/sunglasses",
+        "button_label": "Shop now",
+        "button-text": "#262428",
+        "button-background": "#ffffff",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#494949"
+      }
+    },
+    "1695066771567e9797": {
+      "type": "apps",
+      "blocks": {
+        "c1995a49-c365-4846-8dcb-0b72fc4abe92": {
+          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/featured-reviews-carousel\/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "c1995a49-c365-4846-8dcb-0b72fc4abe92"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "text-testimonials": {
+      "type": "text--testimonials",
+      "blocks": {
+        "testimonials-0": {
+          "type": "text",
+          "settings": {
+            "testimonial_text": "<p>Hands down the best sunglasses I’ve ever owned. Top notch quality and customer service.<\/p>",
+            "customer_name": "Jeremy M.",
+            "link": "shopify:\/\/collections",
+            "stars": 5
+          }
+        },
+        "testimonials-1": {
+          "type": "text",
+          "settings": {
+            "testimonial_text": "<p>I own 2 pairs of these amazing glasses. Soon to be 4. The clarity and comfort are unmatched. <\/p>",
+            "customer_name": "Willie M.",
+            "link": "shopify:\/\/collections",
+            "stars": 5
+          }
+        },
+        "testimonials-2": {
+          "type": "text",
+          "settings": {
+            "testimonial_text": "<p>I love them I have walked through hell with these things on my head and nothing has scratched them up.<\/p>",
+            "customer_name": "Bart L.",
+            "link": "shopify:\/\/collections",
+            "stars": 5
+          }
+        }
+      },
+      "block_order": [
+        "testimonials-0",
+        "testimonials-1",
+        "testimonials-2"
+      ],
+      "settings": {
+        "colors": "white",
+        "circle_images": true,
+        "title": "Testimonials"
+      }
+    },
+    "collage-builder": {
+      "type": "collage-builder",
+      "blocks": {
+        "collage-builder-0": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/outlaw---2_ba0642ff-afc4-4c62-b3a8-42d50e953738.jpg",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "mobile_position": "md-max-align-top md-max-justify-left",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#262428",
+            "button_hover_color": "#d4d3d4",
+            "button_hover_background_color": "#494949",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "collage-builder-3": {
+          "type": "text",
+          "settings": {
+            "heading": "Who We Are",
+            "heading_size": 36,
+            "text": "At Skeleton Optics, we understand the importance of clarity. This is why our sunglasses feature polarized lenses by Carl Zeiss Vision, offering superior contrast, clarity, and color accuracy. Handcrafted in Italy, our frames promise robustness and reliability, ready for any adventure you undertake.\n<br><br>\nEach moment in the outdoors is a story waiting to be told, and we aim to ensure that your visual memories are as vivid as your experiences. We are committed to being your trustworthy companion in all your outdoor pursuits, helping you live a life with no boundaries.",
+            "text_alignment": "left",
+            "button_label": "Shop now",
+            "url": "shopify:\/\/collections\/lifestyle",
+            "desktop_position": "md-min-align-center md-min-justify-left",
+            "background_color": "#e6e5e7",
+            "text_color": "#060606",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#262428",
+            "button_hover_color": "#d4d3d4",
+            "button_hover_background_color": "#494949"
+          }
+        },
+        "collage-builder-2": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Skeleton_Optics_Sunglasses-079.jpg",
+            "heading": "Embrace The Outdoors",
+            "heading_size": 30,
+            "button_label": "Shop now",
+            "url": "shopify:\/\/collections\/sunglasses",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#f4f4f4",
+            "button_color": "#020202",
+            "button_background_color": "#ffffff",
+            "button_hover_color": "#d4d3d4",
+            "button_hover_background_color": "#494949",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_CGbVTM": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/DI9A4472_5829aba3-52f8-4d2a-87d2-c36551390ce2.jpg",
+            "heading": "",
+            "heading_size": 30,
+            "button_label": "",
+            "url": "",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "text_color": "#262428",
+            "button_color": "#e6e5e7",
+            "button_background_color": "#262428",
+            "button_hover_color": "#d4d3d4",
+            "button_hover_background_color": "#494949",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "collage-builder-0",
+        "collage-builder-3",
+        "collage-builder-2",
+        "image_CGbVTM"
+      ],
+      "settings": {
+        "color_scheme": "white",
+        "title": "",
+        "description": "",
+        "remove_spacing": false,
+        "section_width": "content",
+        "width_1": "2",
+        "height_1": "2",
+        "width_2": "2",
+        "height_2": "2",
+        "width_3": "2",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "3",
+        "width_5": "4",
+        "height_5": "3",
+        "width_6": "1",
+        "height_6": "6",
+        "block_alignment": "center"
+      }
+    },
+    "e7585d97-e121-4344-b3ac-8c57354903c5": {
+      "type": "collection--products-block",
+      "settings": {
+        "title": "Featured products",
+        "richtext": "",
+        "collection": "frontpage"
+      }
+    },
+    "image-image-with-text-1": {
+      "type": "image--image-with-text",
+      "settings": {
+        "colors": "light",
+        "image": "shopify:\/\/shop_images\/home-page-4.jpg",
+        "text_overlapping_image": true,
+        "section-width": "full",
+        "layout": "right",
+        "text_alignment": "left",
+        "title": "A Blend Of Craftsmanship & Performance",
+        "text": "<p>Welcome to Skeleton Optics, where we blend craftsmanship, performance, and style. We use Zeiss Vision lenses for all our sunglasses, with handcrafted Italian frames, offering you a visual experience like no other. <\/p><p>We're more than just a brand - we're a community that believes in embracing the outdoors and living life without limits. So, gear up, step out, and see the world through our lenses. It's time to join the Skeleton family.<\/p>",
+        "button_label": "Learn more",
+        "button_link": "shopify:\/\/pages\/about-us"
+      }
+    }
+  },
+  "order": [
+    "221588ab-9229-4c2b-9304-d2483e843546",
+    "image_slideshow_8jUzdn",
+    "text-text-adverts",
+    "collection-collection-list",
+    "95a56041-cb7c-4b06-a760-6b7c58e632a3",
+    "featured-collection",
+    "d7c0ab53-89d0-40ea-b9e2-8a173fc4f5df",
+    "video-video-hero",
+    "featured-collection-1",
+    "image-text-with-image-overlay-1",
+    "1695066771567e9797",
+    "text-testimonials",
+    "collage-builder",
+    "e7585d97-e121-4344-b3ac-8c57354903c5",
+    "image-image-with-text-1"
+  ]
+}
